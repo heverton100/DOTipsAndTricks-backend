@@ -26,9 +26,7 @@ if($logarray == $useremail){
 	}
 
 }else{
-	
 	echo json_encode(array("response"=>"failed"));
-  
 }
 
 ?>
