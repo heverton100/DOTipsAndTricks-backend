@@ -8,8 +8,8 @@ class Connection {
             return;
         }
         // data for making connection            
-        $mssql_server = 'servercontoso2.database.windows.net';
-        $mssql_data = array( "Database"=>"contosodb", "UID"=>"servercontoso2", "PWD"=>"99658941hrc+-");
+        $mssql_server = 'server';
+        $mssql_data = array( "Database"=>"database", "UID"=>"user", "PWD"=>"pass");
         // try to connect                    
         $connection = sqlsrv_connect($mssql_server, $mssql_data);
         if(!$connection){
